@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { ROW_API, column_API } from "../service/nse.service";
-
+//not working will check any other alternative
 export const useStockTableData = () => {
 
    const [resList,setResList]=useState([]);
